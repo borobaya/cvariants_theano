@@ -1,6 +1,6 @@
 #Colour Variant Detection using Modified AlexNet Implementation in Theano
 The code here was modified from the implementation of AlexNet at https://github.com/uoguelph-mlrg/theano_alexnet/.
-It takes in two images and outputs the probability of whether they are colour variants of each other.
+It takes in a target image, and outputs the probability of which of n other candidate images is its colour variant.
 
 
 #AlexNet Implementation with Theano
